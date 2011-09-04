@@ -1,0 +1,21 @@
+diff -up ./src/conf/MANIFEST.MF.osgi ./src/conf/MANIFEST.MF
+--- ./src/conf/MANIFEST.MF.osgi	2008-07-24 16:38:38.000000000 -0400
++++ ./src/conf/MANIFEST.MF	2008-07-24 16:39:13.000000000 -0400
+@@ -10,3 +10,17 @@ Implementation-Title: Commons Lang
+ Implementation-Vendor-Id: org.apache
+ X-Compile-Source-JDK: @compile.source@
+ X-Compile-Target-JDK: @compile.target@
++Bundle-RequiredExecutionEnvironment: JRE-1.1
++Bundle-SymbolicName: org.apache.commons.lang
++Bundle-ManifestVersion: 2
++Bundle-Name: %pluginName
++Bundle-Localization: plugin
++Bundle-Version: 2.3.0.v200803061910
++Bundle-Vendor: %providerName
++Export-Package: org.apache.commons.lang;version="2.3.0",org.apache.com
++ mons.lang.builder;version="2.3.0",org.apache.commons.lang.enum;versio
++ n="2.3.0",org.apache.commons.lang.enums;version="2.3.0",org.apache.co
++ mmons.lang.exception;version="2.3.0",org.apache.commons.lang.math;ver
++ sion="2.3.0",org.apache.commons.lang.mutable;version="2.3.0",org.apac
++ he.commons.lang.text;version="2.3.0",org.apache.commons.lang.time;ver
++ sion="2.3.0"
